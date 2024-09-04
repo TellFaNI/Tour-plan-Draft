@@ -180,7 +180,6 @@ body {
 .hotel-grid {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   padding-bottom: 70px;
 }
 .slider {
@@ -239,7 +238,12 @@ body {
   height: 30px;
   width: 30px;
 }
+.hotel-info__container {
+  display: flex;
+  flex-direction: column;
+}
 .info {
+  margin-bottom: 27px;
   border-radius: 8px;
   color: #ffffff;
   background-color: #0a223d;
@@ -247,7 +251,7 @@ body {
 .info-container {
   padding: 29px 28px 26px 26px;
   max-width: 350px;
-  min-height: 210px;
+  max-height: 210px;
 }
 .price-info {
   display: flex;
@@ -311,7 +315,13 @@ body {
   color: #ffffff;
   font-weight: 600;
   font-size: 14px;
-  padding: 16px 83px;
   width: 100%;
+  min-height: 45px;
   cursor: pointer;
+}
+.map {
+  background-color: #000;
+  border-radius: 4px;
+  width: 347px;
+  height: 213px;
 }
