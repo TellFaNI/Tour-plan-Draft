@@ -398,6 +398,8 @@ body {
   top: 0;
 }
 .reviews-title {
+  display: flex;
+  justify-content: center;
   height: 45px;
   margin: 0 0 70px 0;
 }
@@ -436,10 +438,11 @@ body {
   justify-content: center;
   text-align: center;
   background-color: #ffffff;
+  overflow: hidden;
   padding: 13px 60px 30px 60px;
   border-radius: 8px;
   width: 730px;
-  min-height: 325px;
+  height: 325px;
 }
 .reviews-user_block {
   display: flex;
