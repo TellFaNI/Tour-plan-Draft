@@ -320,8 +320,9 @@ body {
   cursor: pointer;
 }
 .map {
-  background-color: #000;
-  border-radius: 4px;
   width: 347px;
   height: 213px;
+}
+.map-container {
+  border-radius: 4px;
 }
