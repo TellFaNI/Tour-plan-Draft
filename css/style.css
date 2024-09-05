@@ -408,7 +408,6 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
   margin-bottom: 70px;
 }
 .reviews_user-name {
@@ -433,21 +432,24 @@ body {
   text-align: justify;
 }
 .reviews-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   background-color: #ffffff;
-  overflow: hidden;
   padding: 13px 60px 30px 60px;
   border-radius: 8px;
   width: 730px;
-  height: 325px;
+  min-height: 325px;
 }
 .reviews-user_block {
+  position: absolute;
+  top: -45px;
+  left: 375px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 32px;
+  margin-bottom: 17px;
 }
 .reviews_user_logo {
   align-self: center;
